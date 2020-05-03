@@ -95,4 +95,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void showFamilyList(View view) {
+        Intent intent = new Intent(this,FamilyActivity.class);
+        startActivity(intent);
+    }
+
+    public void showNumbersList(View view) {
+        Intent intent = new Intent(this,NumbersActivity.class);
+        startActivity(intent);
+    }
+
+    public void showPhrasesList(View view) {
+        Intent intent = new Intent(this,PhrasesActivity.class);
+        startActivity(intent);
+    }
+
+    public void showColorsList(View view) {
+        Intent intent = new Intent(this,ColorsActivity.class);
+        startActivity(intent);
+    }
 }
